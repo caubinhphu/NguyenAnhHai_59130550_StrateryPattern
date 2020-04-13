@@ -5,6 +5,8 @@
  */
 package nguyenanhhai_59130550_straterypattern;
 
+import baitap1.Main1;
+
 /**
  *
  * @author Hai Tran Do
@@ -15,7 +17,9 @@ public class NguyenAnhHai_59130550_StrateryPattern {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        // Bai tap 1
+        System.out.println("Bài tập 1:");
+        Main1.main(args);
     }
     
 }
