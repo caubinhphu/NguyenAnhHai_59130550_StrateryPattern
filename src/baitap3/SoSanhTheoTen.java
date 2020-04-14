@@ -9,7 +9,7 @@ package baitap3;
  *
  * @author Hai Tran Do
  */
-public class SoSanhTheoTen implements ISoSanh {
+public class SoSanhTheoTen implements ISoSanh<SinhVien> {
 
     @Override
     public int soSanh(SinhVien o1, SinhVien o2) {

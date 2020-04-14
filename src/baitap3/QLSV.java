@@ -26,7 +26,7 @@ public class QLSV {
     }
     // sắp xếp danh sách sinh viên (sắp xếp tăng dần theo tiêu chí)
     public void sapXep() {
-        dsSinhVien.sort((a, b) -> soSanh.soSanh(a, b));
+        dsSinhVien.sort((a, b) -> soSanh.soSanh((SinhVien)a, (SinhVien)b));
     }
     // in ds sinh viên
     public void inDs() {

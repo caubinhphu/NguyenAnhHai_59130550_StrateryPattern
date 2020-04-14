@@ -8,7 +8,8 @@ package baitap3;
 /**
  *
  * @author Hai Tran Do
+ * @param <T>
  */
-public interface ISoSanh {
-    public int soSanh(SinhVien o1, SinhVien o2);
+public interface ISoSanh<T> {
+    public int soSanh(T o1, T o2);
 }
