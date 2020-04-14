@@ -6,6 +6,7 @@
 package nguyenanhhai_59130550_straterypattern;
 
 import baitap1.Main1;
+import baitap2.Main2;
 
 /**
  *
@@ -18,8 +19,12 @@ public class NguyenAnhHai_59130550_StrateryPattern {
      */
     public static void main(String[] args) {
         // Bai tap 1
-        System.out.println("Bài tập 1:");
-        Main1.main(args);
+//        System.out.println("Bài tập 1:");
+//        Main1.main(args);
+//        
+//        // Bai tap 2
+//        System.out.println("Bài tập 2:");
+//        Main2.main(args);
     }
     
 }
