@@ -27,11 +27,12 @@ public class Main2 {
         gh1.them(hh3);
         gh1.them(hh4);
         gh1.them(hh5);
-        ArrayList<HangHoa> dsHangHoa1 = gh1.getDsHangHoa();
-        System.out.println("Danh sách hàng trong giỏ");
-        for (HangHoa hangHoa : dsHangHoa1) {
-            System.out.println("Hàng hóa: " + hangHoa.thongTinHH());
-        }
+//        ArrayList<HangHoa> dsHangHoa1 = gh1.getDsHangHoa();
+//        System.out.println("Danh sách hàng trong giỏ");
+//        for (HangHoa hangHoa : dsHangHoa1) {
+//            System.out.println("Hàng hóa: " + hangHoa.thongTinHH());
+//        }
+        gh1.inDs();
         System.out.println("Tổng tiền hàng: " + gh1.tongTienHang());
         System.out.println("Tổng tiền phải thanh toán: " + gh1.thanhToan());
         
@@ -41,11 +42,12 @@ public class Main2 {
         gh2.setHinhThucTT(new ThanhToanCOD());
         gh2.them(hh1);
         gh2.them(hh2);
-        ArrayList<HangHoa> dsHangHoa2 = gh1.getDsHangHoa();
-        System.out.println("Danh sách hàng trong giỏ");
-        for (HangHoa hangHoa : dsHangHoa2) {
-            System.out.println("Hàng hóa: " + hangHoa.thongTinHH());
-        }
+//        ArrayList<HangHoa> dsHangHoa2 = gh1.getDsHangHoa();
+//        System.out.println("Danh sách hàng trong giỏ");
+//        for (HangHoa hangHoa : dsHangHoa2) {
+//            System.out.println("Hàng hóa: " + hangHoa.thongTinHH());
+//        }
+        gh2.inDs();
         System.out.println("Tổng tiền hàng: " + gh2.tongTienHang());
         System.out.println("Tổng tiền phải thanh toán: " + gh2.thanhToan());
     }

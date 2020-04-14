@@ -21,9 +21,9 @@ public class GioHang {
         this.hinhThucTT = hinhThucTT;
     }
 
-    public ArrayList<HangHoa> getDsHangHoa() {
-        return dsHangHoa;
-    }
+//    public ArrayList<HangHoa> getDsHangHoa() {
+//        return dsHangHoa;
+//    }
     
     // method
     // thêm hàng hóa vào giỏ
@@ -39,12 +39,16 @@ public class GioHang {
         }
         return tong;
     }
-    
+    // tổng tiền phải thanh toán
     public double thanhToan() {
         int tien = 0;
         for (HangHoa hangHoa : dsHangHoa) {
             tien += hangHoa.getGia();
         }
         return hinhThucTT.thanhToan(tien);
+    }
+    // in danh sách hàng hóa
+    public void inDs() {
+        dsHangHoa.forEach(hh -> System.out.println("Hàng hóa: " + hh.thongTinHH()));
     }
 }
