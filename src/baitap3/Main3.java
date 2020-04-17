@@ -19,19 +19,13 @@ public class Main3 {
         
         // tạo đối tượng quản lý sinh viên
         QLSV quanLy = new QLSV();
-        // tạo sinh viên
-        SinhVien sv1 = new SinhVien("Nguyen Sinh Mot", formaterDate.parse("1/1/1999"), 8.6f);
-        SinhVien sv2 = new SinhVien("Nguyen Sinh Hai", formaterDate.parse("23/10/1999"), 6.6f);
-        SinhVien sv3 = new SinhVien("Nguyen Sinh Ba", formaterDate.parse("14/11/1999"), 9.6f);
-        SinhVien sv4 = new SinhVien("Nguyen Sinh Bon", formaterDate.parse("2/10/1999"), 5.3f);
-        SinhVien sv5 = new SinhVien("Nguyen Sinh Nam", formaterDate.parse("4/10/1999"), 8.8f);
         
         // thêm sinh sinh vào đối tượng quản lý
-        quanLy.them(sv1);
-        quanLy.them(sv2);
-        quanLy.them(sv3);
-        quanLy.them(sv4);
-        quanLy.them(sv5);
+        quanLy.them(new SinhVien("Nguyen Sinh Mot", formaterDate.parse("1/1/1999"), 8.6f));
+        quanLy.them(new SinhVien("Nguyen Sinh Hai", formaterDate.parse("23/10/1999"), 6.6f));
+        quanLy.them(new SinhVien("Nguyen Sinh Ba", formaterDate.parse("14/11/1999"), 9.6f));
+        quanLy.them(new SinhVien("Nguyen Sinh Bon", formaterDate.parse("2/10/1999"), 5.3f));
+        quanLy.them(new SinhVien("Nguyen Sinh Nam", formaterDate.parse("4/10/1999"), 8.8f));
         
         // in thông tin danh sách sinh viên
         System.out.println("Danh sách sinh viên");

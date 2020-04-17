@@ -41,11 +41,7 @@ public class GioHang {
     }
     // tổng tiền phải thanh toán
     public double thanhToan() {
-        int tien = 0;
-        for (HangHoa hangHoa : dsHangHoa) {
-            tien += hangHoa.getGia();
-        }
-        return hinhThucTT.thanhToan(tien);
+        return hinhThucTT.thanhToan(tongTienHang());
     }
     // in danh sách hàng hóa
     public void inDs() {

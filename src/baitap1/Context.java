@@ -10,7 +10,7 @@ package baitap1;
  * @author Hai Tran Do
  */
 public class Context {
-    ITinh tinhToan;
+    private ITinh tinhToan;
 
     public void setTinhToan(ITinh tinhToan) {
         this.tinhToan = tinhToan;

@@ -32,7 +32,7 @@ public class SinhVien {
     }
     
     public String getThongTin() {
-        SimpleDateFormat formaterDate = new SimpleDateFormat("dd/MM/yyy");
+        SimpleDateFormat formaterDate = new SimpleDateFormat("dd/MM/yyyy");
         return "Họ tên: " + this.hoTen + ", ngày sinh: " + formaterDate.format(this.ngaySinh) + ", điểm TB: " + this.diemTB;
     }
 }
